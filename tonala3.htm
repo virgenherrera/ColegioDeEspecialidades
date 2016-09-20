@@ -1,0 +1,56 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tonala 19 de Julio de 2008</title>
+</head>
+
+<body link="#800000" vlink="#800000" alink="#800000" text="#800000" bgproperties="fixed" background="Datos/componentesweb/fondo.gif" tppabs="http://www.colegiodeespecialidades.com/Datos/Componentes%20Web/fondo.gif">
+
+
+<p align="center">&nbsp;</p>
+
+
+<table x:str border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 745">
+  <tr height="19" style="height:14.25pt">
+    <td height="19" style="height: 14.25pt; width: 745; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border: 2.0pt double #993300; padding-left: 1px; padding-right: 1px; padding-top: 1px" align="center">
+    <font color="#993300">&nbsp; </font>
+
+ <font face="Times New Roman" text="#990000" size="6" color="#993300"><b>&lt;</b>-
+<script languaje="javascript">
+//cambiar el texto
+var before="para la..."
+var current="Hoy es¡..."
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+function countdown(yr,m,d){
+var today=new Date()
+var todayy=today.getYear()
+if (todayy < 1000)
+todayy+=1900
+var todaym=today.getMonth()
+var todayd=today.getDate()
+var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+var futurestring=montharray[m-1]+" "+d+", "+yr
+var difference=(Math.round((Date.parse(futurestring)-Date.parse(todaystring))/(24*60*60*1000))*1)
+if (difference==0)
+document.write(current)
+else if (difference>0)
+document.write("Faltan "+difference+" días para "+before)
+}
+//cambiar la fecha
+countdown(2008,09,27)
+    </script>-</font><font face="Times New Roman" text="#990000" size="4" color="#993300">&nbsp;</font><b><font face="Times New Roman" text="#990000" size="6" color="#993300">&gt;</font></b></p>
+</td>
+  </tr>
+</table>
+
+
+<p align="center">&nbsp;</p>
+<p align="center"><img src="images/cdguz.jpg" width="462" height="733"></p>
+
+</body>
+
+</html>
